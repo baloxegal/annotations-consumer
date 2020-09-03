@@ -7,7 +7,6 @@ public class Car {
 	
 	private String manufacturer;
 	
-	@SuppressWarnings("unused")
 	private String name;
 	
 	private String typeFuel;
