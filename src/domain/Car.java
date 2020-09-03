@@ -2,6 +2,7 @@ package domain;
 
 import annotations.ca.Incapsulated;
 
+@AddConstructor
 @Incapsulated
 public class Car {
 	
