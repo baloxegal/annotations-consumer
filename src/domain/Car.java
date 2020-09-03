@@ -1,13 +1,13 @@
 package domain;
 
-import annotations.ca.AddConstructor;
+import annotations.ca.Incapsulated;
 
-@AddConstructor
+@Incapsulated
 public class Car {
 	
-	String manufacturer;
-	String name;
-	String typeFuel;
-	Integer engineVolume;
+	private String manufacturer;
+	private String name;
+	private String typeFuel;
+	private Integer engineVolume;
 
 }

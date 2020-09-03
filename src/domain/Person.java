@@ -1,13 +1,13 @@
 package domain;
 
-import annotations.ca.AddConstructor;
+import annotations.ca.Incapsulated;
 
-//@AddConstructor
+@Incapsulated
 public class Person {
 	
 	public String name;
-	Integer age;
-	String telephone;
-	Boolean isBuyer;
+	private Integer age;
+	private String telephone;
+	public Boolean isBuyer;
 
 }
