@@ -9,5 +9,19 @@ public class Person {
 	private Integer age;
 	private String telephone;
 	public Boolean isBuyer;
+		
+	public Integer getAge() {
+		return age;
+	}
+	@SuppressWarnings("unused")
+	private void setAge(Integer age) {
+		this.age = age;
+	}
+	public String getTelephone() {
+		return telephone;
+	}
+	public void setTelephone(String telephone) {
+		this.telephone = telephone;
+	}
 
 }
