@@ -1,5 +1,6 @@
 package domain;
 
+import annotations.ca.AddConstructor;
 import annotations.ca.Incapsulated;
 
 @AddConstructor
@@ -13,7 +14,6 @@ public class Car {
 	private String typeFuel;
 	private Integer engineVolume;
 	
-	@SuppressWarnings("unused")
 	private String getManufacturer() {
 		return manufacturer;
 	}

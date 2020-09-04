@@ -1,5 +1,6 @@
 package domain;
 
+import annotations.ca.AddConstructor;
 import annotations.ca.Incapsulated;
 
 @AddConstructor
