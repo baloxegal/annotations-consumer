@@ -7,6 +7,10 @@ import annotations.ca.Incapsulated;
 @Incapsulated
 public class Car {
 	
+	public Car(String manufacturer) {
+		this.manufacturer = manufacturer;
+	}
+	
 	private String manufacturer;
 	
 	private String name;
