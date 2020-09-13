@@ -11,7 +11,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Baloxegal/eclipse-workspace/incapsulatedAnnotation18.jar">
+	<classpathentry kind="lib" path="C:/Users/Baloxegal/eclipse-workspace/annotationAndAgent.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
