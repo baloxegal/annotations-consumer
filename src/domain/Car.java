@@ -16,7 +16,7 @@ public class Car {
 	private String name;
 	
 	private String typeFuel;
-	private Integer engineVolume;
+	Integer engineVolume;
 	
 	private String getManufacturer() {
 		return manufacturer;
