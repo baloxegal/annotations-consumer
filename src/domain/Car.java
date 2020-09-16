@@ -7,9 +7,9 @@ import annotations.ca.Incapsulated;
 @Incapsulated
 public class Car {
 	
-	public Car(String manufacturer) {
-		this.manufacturer = manufacturer;
-	}
+//	public Car(String manufacturer) {
+//		this.manufacturer = manufacturer;
+//	}
 	
 	private String manufacturer;
 	
@@ -36,5 +36,11 @@ public class Car {
 	public Integer getEngineVolume() {
 		return engineVolume;
 	}
+	@Override
+	public String toString() {
+		return "Car [manufacturer=" + manufacturer + ", name=" + name + ", typeFuel=" + typeFuel + ", engineVolume="
+				+ engineVolume + "]";
+	}
+	
 	
 }
