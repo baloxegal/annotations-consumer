@@ -2,11 +2,12 @@ package main;
 
 import domain.Car;
 import instrumentation.ClassTransformer;
+import javassist.CannotCompileException;
 import javassist.NotFoundException;
 
 public class Application {
 	
-	public static void main(String[] args) throws NotFoundException {
+	public static void main(String[] args) throws NotFoundException, CannotCompileException {
 			
 		System.out.println("Application running!");
 		
