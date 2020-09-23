@@ -7,21 +7,20 @@ import annotations.ca.Incapsulated;
 @Incapsulated
 public class Car {
 		
-	public Car() {
-		
-	}
-
-	public Car(String manufacturer) {
-		this.manufacturer = manufacturer;
-	}	
-	
-	public Car(String manufacturer, String name, String typeFuel, Integer engineVolume) {
-		super();
-		this.manufacturer = manufacturer;
-		this.name = name;
-		this.typeFuel = typeFuel;
-		this.engineVolume = engineVolume;
-	}
+//	public Car() {		
+//	}
+//
+//	public Car(String manufacturer) {
+//		this.manufacturer = manufacturer;
+//	}	
+//	
+//	public Car(String manufacturer, String name, String typeFuel, Integer engineVolume) {
+//		super();
+//		this.manufacturer = manufacturer;
+//		this.name = name;
+//		this.typeFuel = typeFuel;
+//		this.engineVolume = engineVolume;
+//	}
 
 	private String manufacturer;
 	

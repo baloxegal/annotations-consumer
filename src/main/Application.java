@@ -1,6 +1,6 @@
 package main;
 
-import domain.Car;
+import domain.Person;
 import instrumentation.ClassTransformer;
 import javassist.CannotCompileException;
 import javassist.NotFoundException;
@@ -12,15 +12,14 @@ public class Application {
 		System.out.println("Application running!");
 		
 		System.out.println("STARTING main APP!");
-		
-		Car myCar = new Car();
-		System.out.println(myCar.toString());
 				
-		ClassTransformer.transform(Car.class);	
-			
+		ClassTransformer.transform("domain.Person");
 		
+		Person person = new Person();
+		
+		System.out.println(person);
+				
 		System.out.println("ENDING main APP!");
-
 		
 	}
 

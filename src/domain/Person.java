@@ -7,23 +7,29 @@ import annotations.ca.Incapsulated;
 @Incapsulated
 public class Person {
 		
-	private String name;
-	private Integer age;
-	private String telephone;
-	public Boolean isBuyer;
+	//private String name;
+	private int age;
+	//private String telephone;
+	public boolean isBuyer;
 		
-	public Integer getAge() {
+	public int getAge() {
 		return age;
 	}
 	@SuppressWarnings("unused")
-	private void setAge(Integer age) {
+	private void setAge(int age) {
 		this.age = age;
 	}
-	public String getTelephone() {
-		return telephone;
+//	public String getTelephone() {
+//		return telephone;
+//	}
+//	public void setTelephone(String telephone) {
+//		this.telephone = telephone;
+//	}
+	@Override
+	public String toString() {
+		return "Person [age=" + age + ", isBuyer=" + isBuyer + "]";
 	}
-	public void setTelephone(String telephone) {
-		this.telephone = telephone;
-	}
+	
+	
 
 }
