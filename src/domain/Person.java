@@ -12,11 +12,11 @@ public class Person {
 	//private String telephone;
 	public Boolean isBuyer;
 		
-	public Integer getAge() {
+	public int getAge() {
 		return age;
 	}
 	@SuppressWarnings("unused")
-	private void setAge(Integer age) {
+	private void setAge(int age) {
 		this.age = age;
 	}
 //	public String getTelephone() {
@@ -28,6 +28,6 @@ public class Person {
 	@Override
 	public String toString() {
 		return "Person [age=" + age + ", isBuyer=" + isBuyer + "]";
-	}	
+	}
 
 }
