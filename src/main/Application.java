@@ -13,11 +13,14 @@ public class Application {
 		
 		System.out.println("STARTING main APP!");
 				
-		ClassTransformer.transform("domain.Person");
+//		ClassTransformer.transform("domain.Person");
+//		
+//		Person person = new Person();
 		
-		Person person = new Person();
+		Person person_1 = new Person (Integer.valueOf(50), Boolean.valueOf(true));
 		
-		System.out.println(person);
+//		System.out.println(person);
+		System.out.println(person_1);
 				
 		System.out.println("ENDING main APP!");
 		
