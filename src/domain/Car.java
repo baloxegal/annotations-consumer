@@ -1,9 +1,9 @@
 package domain;
 
-import annotations.ca.AddConstructor;
+//import annotations.ca.AddConstructor;
 import annotations.ca.Incapsulated;
 
-@AddConstructor
+//@AddConstructor
 @Incapsulated
 public class Car {
 		

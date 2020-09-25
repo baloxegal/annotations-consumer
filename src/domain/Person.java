@@ -7,9 +7,9 @@ import annotations.ca.Incapsulated;
 @Incapsulated
 public class Person {
 		
-	//private String name;
+	private String name;
 	private Integer age;
-	//private String telephone;
+	private String telephone;
 	private Boolean isBuyer;
 		
 	public int getAge() {
@@ -27,7 +27,8 @@ public class Person {
 //	}
 	@Override
 	public String toString() {
-		return "Person [age=" + age + ", isBuyer=" + isBuyer + "]";
+		return "Person [name=" + name + ", age=" + age + ", telephone=" + telephone + ", isBuyer=" + isBuyer + "]";
 	}
+	
 
 }
