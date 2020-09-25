@@ -15,9 +15,8 @@ public class Application {
 		System.out.println("STARTING main APP!");
 
 		Person person = (Person) ClassTransformer.transform("domain.Person").getConstructor(Integer.class, Boolean.class).newInstance(Integer.valueOf(50), Boolean.valueOf(true));
-	
-		Person person_1 = new Person();
-	
+		
+		Person person_1 = new Person();	
 		
 		System.out.println(person);
 		System.out.println(person_1);

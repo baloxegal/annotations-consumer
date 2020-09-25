@@ -10,7 +10,7 @@ public class Person {
 	//private String name;
 	private Integer age;
 	//private String telephone;
-	public Boolean isBuyer;
+	private Boolean isBuyer;
 		
 	public int getAge() {
 		return age;
